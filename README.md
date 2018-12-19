@@ -12,12 +12,12 @@ automatically kept for a limited time but the most recent backup is permanant.
 
 ## Installing
 
-To install a binary, see releases. To build from source, see here:
+To install a binary, see [releases](https://github.com/0xsx/cbak/releases). To build from source, see here:
 
 #### Requirements
 
 * Python 2 or 3 (Python 3 is recommended)
-* [pycrypto](https://pypi.org/project/pycrypto/) (if running the Python script) / [pycryptodome](https://pypi.org/project/pycryptodome/)
+* [pycrypto](https://pypi.org/project/pycrypto/) / [pycryptodome](https://pypi.org/project/pycryptodome/) (if running the Python script)
 * [pycurl](http://pycurl.io/) (if running the Python script)
 * pyinstaller (to build standalone executable)
 
@@ -104,7 +104,7 @@ to access the client ID. Permissions are remembered after the first time
 allowing access. The first time the app connects, it will prompt for an
 authorization code. Go to the provided URL, login as the associated account,
 and allow access to the app. Then copy the authorization code back into the program.
-Upon successful connection the program will produce a .token file remembering
+Upon successful connection the program will produce a `.token` file remembering
 authorization for subsequent connections. This file must remain in the same
 directory as the manifest.
 
@@ -143,7 +143,7 @@ its projects. It is only a program that uses the public Google Drive API.
 
 ## License
 
-GPLv3. See LICENSE.md.
+GPLv3.
 
 
 
