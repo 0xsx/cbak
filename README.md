@@ -16,7 +16,7 @@ To install a binary, see [releases](https://github.com/0xsx/cbak/releases). To b
 
 #### Requirements
 
-* Python 2 or 3 (Python 3 is recommended)
+* Python 3
 * [pycrypto](https://pypi.org/project/pycrypto/) / [pycryptodome](https://pypi.org/project/pycryptodome/) (if running the Python script)
 * [pycurl](http://pycurl.io/) (if running the Python script)
 * pyinstaller (to build standalone executable)
